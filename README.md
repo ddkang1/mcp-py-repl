@@ -19,8 +19,8 @@ mcp-py-repl
 You can run the REPL server using Docker:
 
 ```bash
-docker pull ghcr.io/evalstate/mcp-py-repl
-docker run -it ghcr.io/evalstate/mcp-py-repl
+docker pull ghcr.io/ddkang1/mcp-py-repl
+docker run -it ghcr.io/ddkang1/mcp-py-repl
 ```
 
 The container includes:
@@ -48,7 +48,7 @@ This server is intended to be used via Docker.
       "--pull=always",
       "-v",
       "./test_data:/mnt/data/",
-      "ghcr.io/evalstate/mcp-py-repl:latest",
+      "ghcr.io/ddkang1/mcp-py-repl:latest",
     ]
 ```
 
